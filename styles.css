@@ -1,0 +1,52 @@
+body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+}
+
+
+.left-borders {
+    float: left;
+    width: 30%;
+    border-spacing: 20px;
+     margin-right: 10px;
+}
+
+.middle-borders {
+    float: right;
+    width: 68%;
+    margin: auto;
+    margin-right: 60px;
+    
+}
+
+.rounded-border {
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    margin-right: 60px;
+    
+}
+
+.boxtitle{
+     border: 1px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    margin-right: 60px;
+    
+}
+
+/* Add margin to create space between the rounded borders */
+.middle-borders .rounded-border {
+   
+}
+
+.left-borders .rounded-border {
+    margin-right: 60px;
+    
+    margin-right: 60px;
+    
+}
